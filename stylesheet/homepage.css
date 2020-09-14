@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* <-------- headerはここから-------> */
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(193, 193, 193, 0.7);
+  padding-top: 10px;
+  
+}
+
+.header-title {
+  color:#007DA3;
+  font-size: 30px;
+  font-family: cursive;
+  margin-left: 20px;
+}
+/* <------- headerはここまで-------> */
+
+/* <-------info-container（名前と大学名）はここから-------> */
+
+
+#first-block {
+  background-image: url("../images/好きな画像.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-top
+}
+
+.info-container {
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  width: 500px;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.introduction{
+  
+  text-align: center;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: fantasy;
+}
+
+.attribution {
+  background-color: rgba(104, 197, 255, 0.932);
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+/* <-------info-container（名前と大学名）はここまで-------> */
+
+
+/* <-------info-container2(最近のニュース)ここから--------> */
+
+.introduction2{
+  border: solid 3px #8dbfff;/*線*/
+  border-radius: 40px;
+  
+}
+
+
+.story-title {
+  font-size: 60px;
+  font-family: fantasy;
+  text-align: center;
+  
+}
+
+.my-story {
+  margin-bottom: 10%;
+  font-family: cursive;
+}
+
+.my-story-title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  
+  
+}
+span{
+  border-bottom: dotted 5px #6091d3;
+}
+.my-story-body {
+  margin: 30px;
+  font-family: cursive;
+}
+/* <-------info-container2(最近のニュース)ここまで-------> */
+
+
+/* <------- Twitter,FaceebookBTNここから-------> */
+
+.button-container {
+  width: 100px;
+  position: absolute;
+  top: 450px;
+  left: 150px;
+}
+
+.sns-btn {
+  color: #fff;
+  font-size: 15px;
+  height: 44px;
+  width:300px;
+  margin-bottom:25px;
+}
+
+.mybtn-fb {
+  background: #3b539a;
+  border-radius: 40px;
+}
+
+.mybtn-fb:hover {
+  opacity: 0.7;
+}
+
+.mybtn-tw {
+  background: #39a9f2;
+  border-radius: 40px;
+}
+
+.mybtn-tw:hover {
+  opacity: 0.7;
+}
+
+
+/* <------- Twitter,FaceebookBTNここまで-------> */
+
